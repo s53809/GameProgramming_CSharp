@@ -10,6 +10,7 @@ namespace GameProgramming_Generic_Collection_Dictionary_Silsup
         public PokemonDogam()
         {
             dic = new Dictionary<Int32, String>();
+            
         }
 
         private void InsertPokemon(Int32 id, String name)
@@ -68,11 +69,11 @@ namespace GameProgramming_Generic_Collection_Dictionary_Silsup
                 Input = Console.ReadLine();
                 input = Convert.ToInt32(Input);
 
-                if(input == 1)
+                if (input == 1)
                 {
                     dogam.Input_1();
                 }
-                else if(input == 2)
+                else if (input == 2)
                 {
                     dogam.Input_2();
                 }
